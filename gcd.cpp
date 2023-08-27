@@ -13,4 +13,9 @@ int gcd(int a,int b){
     return ans;
 
 }
+int recGcd(int a, int b){
+    if( a== 0 || b == 0) return a+b;
+    if(a< b) return recGcd(a, b%a);
+    return recGcd(a%b, b);
+}
 
