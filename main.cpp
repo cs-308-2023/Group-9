@@ -15,6 +15,7 @@ int main(){
     int x = 56;
     int y = 98;
     cout<<"GCD of X and Y is: "<< gcd(x, y)<< endl;
+    cout<<"GCD of X and Y is using recursive function: "<< recGcd(x,y)<< endl;
     
     return 0;
 }
