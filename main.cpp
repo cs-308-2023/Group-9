@@ -12,6 +12,9 @@ int main(){
     // else cout <<"kindly enter positive number" << endl;
     //gcd function
     cout << gcd(3, 4)<< endl;
+    int x = 56;
+    int y = 98;
+    cout<<"GCD of X and Y is: "<< gcd(x, y)<< endl;
     
     return 0;
 }
